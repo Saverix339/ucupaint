@@ -1,3 +1,6 @@
 *__pycache__
 ucupaint_updater/ucupaint_updater_status.json
 credits/*
+.vscode/settings.json
+.gitignore
+bl_ext.vscode_development.ucupaint_updater/bl_ext.vscode_development.ucupaint_updater_status.json

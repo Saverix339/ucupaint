@@ -6942,6 +6942,11 @@ def draw_new_bake_as_layer_menu(layout):
         c.target_type = 'LAYER'
         c.overwrite_current = False
 
+        c = layout.operator("wm.y_bake_to_layer", text='Other Objects Multiple')
+        c.type = 'OTHER_OBJECT_MULTIPLE'
+        c.target_type = 'LAYER'
+        c.overwrite_current = False
+
     layout.separator()
 
     c = layout.operator("wm.y_bake_to_layer", text='Selected Vertices')
